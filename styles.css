@@ -282,7 +282,7 @@ body {
   .top-viewed-card p {
 	margin: 10px 0;
 	font-size: 1.2rem;
-	color: #fff;
+	color: #f3009e;
   }
   
   .top-viewed-card:hover {
@@ -301,5 +301,90 @@ body {
   
   .top-viewed-card a:hover {
 	text-decoration: underline;
+  }
+  
+/* Resume Section */
+.resume-header {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin-bottom: 20px;
+  }
+  
+  .profile-photo {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .resume-details h2 {
+	font-size: 2rem;
+	margin: 0;
+	color: #ff66cc;
+  }
+  
+  .resume-details p {
+	margin: 5px 0;
+	font-size: 1rem;
+	color: #fff;
+  }
+  
+  .resume-content h3 {
+	color: #ff66cc;
+	margin-top: 20px;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skills-list {
+	columns: 2;
+	column-gap: 20px;
+  }
+  
+  ul {
+	list-style-type: square;
+	padding-left: 20px;
+  }
+  
+  li {
+	margin-bottom: 10px;
+	color: #ddd;
+  }
+  
+  /* About Section */
+.about {
+	padding: 20px;
+  }
+  
+  .about h2 {
+	font-size: 2rem;
+	color: #ff66cc;
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  
+  .about-content {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+  }
+  
+  .about-content img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 20px auto;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .about-content p {
+	font-size: 1.2rem;
+	line-height: 1.6;
+	margin-bottom: 20px;
+  }
+  
+  .about-content strong {
+	color: #ff66cc;
   }
   
