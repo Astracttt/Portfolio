@@ -161,8 +161,11 @@ footer .logos img:hover {
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+<<<<<<< HEAD
     background: linear-gradient(135deg, #cd4e96, #556270);
+=======
     background: linear-gradient(135deg, #4ecdc4, #556270);
+>>>>>>> 35ce445ef733f62330b05e97473f5e688870e4f9
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -301,7 +304,7 @@ img {
     gap: 20px;
     margin-bottom: 30px;
     padding: 20px;
-    background: linear-gradient(135deg, #cd4e8d, #556270);
+    background: linear-gradient(135deg, #4ecdc4, #556270);
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
